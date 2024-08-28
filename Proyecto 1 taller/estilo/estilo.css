@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Encabezado*/
+section#superior{
+    background:     rgb(230, 134, 25);
+    height: 465px;
+}
+
+header#cabecera{
+    display: block;
+    margin: auto;
+    width: 940px;
+    height: 98px;
+}
+
+#cabecera ul{
+    float: right;
+    list-style: none;
+    display: block;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    height: 65px;
+    width: 175px;
+}
+#cabecera ul li{
+    display: block;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    height: 45px;
+    width: 45px;    
+}
+ div#logo{
+    float: left;
+    height: 50px;
+    margin-top: 25px;
+    width: 188px;
+ }
+ /*menu*/
+ nav{
+    background: black;
+    display: block;
+    height: 45px;
+    margin: auto;
+    padding: 0;
+    width: 940px;
+ }
+ nav ul{
+   display: block;
+   float: left;
+   list-style: none;
+}
+nav li{
+   float: left;
+}
+nav a {
+   color: rgb(255, 96, 48);
+   display: block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 19px;
+   height: 25px;
+   padding: 10px;
+   text-decoration: none;
+}
+nav a:hover,a:focus{
+   background: brown;
+   color: rgb(0, 0, 0);
+}
+#slider{
+   display: block;
+   margin: auto;
+   margin-top: 10px;
+   height: 295px;
+   width: 940px;
+}
+section#contenedor{
+   background:     rgb(245, 69, 0);
+}
+section#contenedorinterior{
+   background: rgb(101, 197, 11);
+   display: block;
+   margin: auto;
+   width: 1000px;
+}
+section#contenido{
+   display: block;
+   float: left;
+   margin-top: 10px;
+   width: 700px;
+}
+aside{
+   display: block;
+   float: right;
+   margin: auto;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   width: 230px;
+   background: rgb(117, 230, 25);
+}
+h4{
+   background: rgb(230, 49, 25);
+   color: rgb(230, 66, 25);
+   vertical-align: middle;
+   padding-top: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   height: 35px;
+   text-align: center;
+}
+h5{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   margin-top: 10px;   
+}
+p{
+   color: rgb(0, 0, 0);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 17px;
+}
+h2{
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 28px;
+   padding: 10px;
+   color: rgb(219, 23, 23);
+   vertical-align: middle;
+   text-align: center;
+}
+h3{
+   background: rgb(212, 199, 187);
+   color: black;
+   vertical-align: 10px;
+   padding: auto;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 10px;
+   height: 35px;
+   text-align: center;
+}
+.info{
+   color: rgb(0, 0, 0);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 17px;
+   padding: 10px;
+}
+#limpiar{
+   clear:both;
+}
+.info img{
+   display: block;
+   float: left;
+   margin: 10px;
+}
+.info p{
+   display: block;
+   width: 460px;
+   float: right;
+}
+.comoempresa{
+   width: 700px;
+   display: block;
+   float: left;
+
+}
+h6{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 17px;
+   color: black;
+}
+.color{
+   background-color: rgb(230, 100, 25);
+}
+section#inferior{
+   background: black;
+   color: white;
+}
+footer{
+   display: block;
+   margin:auto;
+   height: 130px;
+   width: 940px;
+}
+
+#ifcontacto{
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 13px;
+   font-weight: bold;
+   display: block;
+   float: left;
+   margin-top: 35px;
+   text-align: left;
+   width: 300px;   
+}
+#powered{
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 13px;
+   font-weight: bold;   
+   display: block;
+   float: right;
+   margin-top: 35px;
+   text-align: right;
+   width: 300px;
+}
+h1{
+    color: violet;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#Proyectos{
+    display: block;
+    margin: auto;
+    float: left;
+    width: 320px;
+}
+#Proyectos p{
+width: 300px;
+text-align: justify;
+}
+#imgProyectos img{
+    display: block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 358px;
+}
+.Proyectosm{
+    display: inline-block;
+    width: 210px;
+}
+.Proyectosm h6{
+    margin-left: 10px;
+}
+
+.datacontacto p{
+   padding: 0px;
+   margin: 10px;
+   width: 675px;
+}
+form{
+   margin-left: 60px;
+   margin-bottom: 10px;
+   width: 675px;
+}
+label{
+   color: azure;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 18px;
+}
+input{
+   width: 480px;
+   height: 27px;
+   border: 4px solid purple;
+   margin-top: 5px;
+   font-size: 15;
+}
+textarea{
+   width: 480px;
+    height: 142px;
+    border: 4px solid purple;
+    margin-top: 5px;
+    font-size: 14px;
+}
+#boton{
+   background:peachpuff;
+   border-color: plum;
+   border-radius: 5px;
+   height: 31px;
+   width: 91px;
+}
